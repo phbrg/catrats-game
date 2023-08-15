@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="./assets/style/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catrats game</title>
+        <link rel="shortcut icon" href="../assets/img/" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <h1>Catrats</h1>
+            <p class="about">In this round game you need to be smarter and faster than the machine, by just clickin in this buttons and choosing your next action!</p>
+            <div class="buttons-container">
+                <button id="start">start</button>
+                <button id="reload">reload</button>
+                <button id="shoot">shoot</button>
+                <button id="hide">hide</button>
+            </div>
+            <div class="game-container">
+            </div>
+            <div class="stats-container">
+                <ul>
+                    <li><h1>Player stats</h1></li>
+                    <li>💖 Life: <p class="player-life"></p></li>
+                    <li>🔫 Ammo: <p class="player-ammo"></p></li>
+                </ul>
+                <ul>
+                    <li><h1>Rat stats</h1></li>
+                    <li>💖 Life: <p class="rat-life"></p></li>
+                    <li>🔫 Ammo: <p class="rat-ammo"></p></li>
+                </ul>
+            </div>
+        </main>
+        <script src="./assets/js/bundle.js"></script>
+    </body>
+</html>
